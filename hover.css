@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    margin: 50px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(0, 0, 0);
+}
+
+.style {
+    height: 150px;
+    width: 150px;
+    background-color: #0da1a9;
+    margin: 40px;
+    font-size: 2rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+}
+.anime1{
+    transition: 2s;
+    background-color: rgb(255, 0, 0)
+}
+.anime1:hover{
+    width: 300px;
+}
+.anime2{
+    transition: 2s;
+    transition-delay: 1s ;
+    background-color: aqua;
+}
+.anime2:hover{
+    height: 400px;
+    width: 300px;
+}
+.anime3{
+    transition: 2s;
+    background-color: blueviolet;
+}
+.anime3:hover{
+    width: 400px;
+}
+.anime4{
+    transition: 2s;
+    background-color: chocolate;
+}
+.anime4:hover{
+    width: 400px;
+}
+.anime5{
+    transition: 3s;
+    background-color: darkgreen;
+    transition-timing-function: steps(5);
+}
+.anime5:hover{
+    width: 400px;
+}
+.anime6{
+    transition: 3s;
+    background-color: blue;
+}
+.anime6:hover{
+    width: 400px;
+}
